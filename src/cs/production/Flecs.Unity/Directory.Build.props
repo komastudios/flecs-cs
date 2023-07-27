@@ -1,0 +1,7 @@
+<Project>
+	<PropertyGroup>
+		<UnityInstallRootPath>$([System.Environment]::GetEnvironmentVariable('UNITYHUB_EDITORS_FOLDER_LOCATION'))</UnityInstallRootPath>
+		<!-- <UnityProjectPath>$(MSBuildProjectDirectory)\..\..\..</UnityProjectPath> -->
+		<UnityProjectPath>$(MSBuildProjectDirectory)\..\..\..\..\..\uflex</UnityProjectPath>
+	</PropertyGroup>
+</Project>
