@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
+using AOT;
 using bottlenoselabs.C2CS.Runtime;
 using JetBrains.Annotations;
 using static flecs_hub.flecs;
@@ -241,6 +242,8 @@ public unsafe class World
 
 #if !UNITY_5_3_OR_NEWER
     [UnmanagedCallersOnly]
+#else
+    [MonoPInvokeCallback(typeof(FnPtr_EcsIterTPtr_Void.@delegate))]
 #endif
     private static void SystemCallback(ecs_iter_t* it)
     {

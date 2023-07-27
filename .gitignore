@@ -4,6 +4,7 @@
 # VisualStudio
 .suo
 .vs/
+*.DotSettings.user
 
 # C# build artifacts
 bin/

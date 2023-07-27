@@ -2,6 +2,7 @@
 // Licensed under the MIT license. See LICENSE file in the Git repository root directory for full license information.
 
 using System.Runtime.InteropServices;
+using AOT;
 using JetBrains.Annotations;
 using static flecs_hub.flecs;
 
@@ -42,6 +43,8 @@ public unsafe struct ComponentHooks
 
 #if !UNITY_5_3_OR_NEWER
     [UnmanagedCallersOnly]
+#else
+    [MonoPInvokeCallback(typeof(FnPtr_VoidPtr_Int_EcsTypeInfoTPtr_Void.@delegate))]
 #endif
     private static void CallbackConstructor(void* pointer, int count, ecs_type_info_t* typeInfo)
     {
@@ -52,6 +55,8 @@ public unsafe struct ComponentHooks
 
 #if !UNITY_5_3_OR_NEWER
     [UnmanagedCallersOnly]
+#else
+    [MonoPInvokeCallback(typeof(FnPtr_VoidPtr_Int_EcsTypeInfoTPtr_Void.@delegate))]
 #endif
     private static void CallbackDeconstructor(void* pointer, int count, ecs_type_info_t* typeInfo)
     {
@@ -62,6 +67,8 @@ public unsafe struct ComponentHooks
 
 #if !UNITY_5_3_OR_NEWER
     [UnmanagedCallersOnly]
+#else
+    [MonoPInvokeCallback(typeof(FnPtr_VoidPtr_VoidPtr_Int_EcsTypeInfoTPtr_Void.@delegate))]
 #endif
     private static void CallbackCopy(void* destinationPointer, void* sourcePointer, int count, ecs_type_info_t* typeInfo)
     {
@@ -72,6 +79,8 @@ public unsafe struct ComponentHooks
 
 #if !UNITY_5_3_OR_NEWER
     [UnmanagedCallersOnly]
+#else
+    [MonoPInvokeCallback(typeof(FnPtr_VoidPtr_VoidPtr_Int_EcsTypeInfoTPtr_Void.@delegate))]
 #endif
     private static void CallbackMove(void* destinationPointer, void* sourcePointer, int count, ecs_type_info_t* typeInfo)
     {
@@ -82,6 +91,8 @@ public unsafe struct ComponentHooks
 
 #if !UNITY_5_3_OR_NEWER
     [UnmanagedCallersOnly]
+#else
+    [MonoPInvokeCallback(typeof(FnPtr_EcsIterTPtr_Void.@delegate))]
 #endif
     private static void CallbackOnAdd(ecs_iter_t* it)
     {
@@ -92,6 +103,8 @@ public unsafe struct ComponentHooks
 
 #if !UNITY_5_3_OR_NEWER
     [UnmanagedCallersOnly]
+#else
+    [MonoPInvokeCallback(typeof(FnPtr_EcsIterTPtr_Void.@delegate))]
 #endif
     private static void CallbackOnSet(ecs_iter_t* it)
     {
@@ -102,6 +115,8 @@ public unsafe struct ComponentHooks
 
 #if !UNITY_5_3_OR_NEWER
     [UnmanagedCallersOnly]
+#else
+    [MonoPInvokeCallback(typeof(FnPtr_EcsIterTPtr_Void.@delegate))]
 #endif
     private static void CallbackOnRemove(ecs_iter_t* it)
     {

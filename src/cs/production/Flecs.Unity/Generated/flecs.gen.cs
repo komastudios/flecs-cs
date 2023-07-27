@@ -2617,10 +2617,10 @@ namespace flecs_hub
 
             public IntPtr Pointer;
 
-            public FnPtr_CString_CString(@delegate d)
-            {
-                Pointer = Marshal.GetFunctionPointerForDelegate(d);
-            }
+            // public FnPtr_CString_CString(@delegate d)
+            // {
+            //     Pointer = Marshal.GetFunctionPointerForDelegate(d);
+            // }
         }
 
         [CNode(Kind = "FunctionPointer")]
@@ -2632,10 +2632,10 @@ namespace flecs_hub
 
             public IntPtr Pointer;
 
-            public FnPtr_CString_EcsOsDlT(@delegate d)
-            {
-                Pointer = Marshal.GetFunctionPointerForDelegate(d);
-            }
+            // public FnPtr_CString_EcsOsDlT(@delegate d)
+            // {
+            //     Pointer = Marshal.GetFunctionPointerForDelegate(d);
+            // }
         }
 
         [CNode(Kind = "FunctionPointer")]
@@ -2647,10 +2647,10 @@ namespace flecs_hub
 
             public IntPtr Pointer;
 
-            public FnPtr_EcsEntityT_VoidPtr_EcsEntityT_VoidPtr_Int(@delegate d)
-            {
-                Pointer = Marshal.GetFunctionPointerForDelegate(d);
-            }
+            // public FnPtr_EcsEntityT_VoidPtr_EcsEntityT_VoidPtr_Int(@delegate d)
+            // {
+            //     Pointer = Marshal.GetFunctionPointerForDelegate(d);
+            // }
         }
 
         [CNode(Kind = "FunctionPointer")]
@@ -2662,10 +2662,10 @@ namespace flecs_hub
 
             public IntPtr Pointer;
 
-            public FnPtr_EcsHttpRequestTPtr_EcsHttpReplyTPtr_VoidPtr_CBool(@delegate d)
-            {
-                Pointer = Marshal.GetFunctionPointerForDelegate(d);
-            }
+            // public FnPtr_EcsHttpRequestTPtr_EcsHttpReplyTPtr_VoidPtr_CBool(@delegate d)
+            // {
+            //     Pointer = Marshal.GetFunctionPointerForDelegate(d);
+            // }
         }
 
         [CNode(Kind = "FunctionPointer")]
@@ -2677,10 +2677,10 @@ namespace flecs_hub
 
             public IntPtr Pointer;
 
-            public FnPtr_EcsIterTPtr_CBool(@delegate d)
-            {
-                Pointer = Marshal.GetFunctionPointerForDelegate(d);
-            }
+            // public FnPtr_EcsIterTPtr_CBool(@delegate d)
+            // {
+            //     Pointer = Marshal.GetFunctionPointerForDelegate(d);
+            // }
         }
 
         [CNode(Kind = "FunctionPointer")]
@@ -2692,10 +2692,10 @@ namespace flecs_hub
 
             public IntPtr Pointer;
 
-            public FnPtr_EcsIterTPtr_Void(@delegate d)
-            {
-                Pointer = Marshal.GetFunctionPointerForDelegate(d);
-            }
+            // public FnPtr_EcsIterTPtr_Void(@delegate d)
+            // {
+            //     Pointer = Marshal.GetFunctionPointerForDelegate(d);
+            // }
         }
 
         [CNode(Kind = "FunctionPointer")]
@@ -2707,10 +2707,10 @@ namespace flecs_hub
 
             public IntPtr Pointer;
 
-            public FnPtr_EcsOsCondT(@delegate d)
-            {
-                Pointer = Marshal.GetFunctionPointerForDelegate(d);
-            }
+            // public FnPtr_EcsOsCondT(@delegate d)
+            // {
+            //     Pointer = Marshal.GetFunctionPointerForDelegate(d);
+            // }
         }
 
         [CNode(Kind = "FunctionPointer")]
@@ -2722,10 +2722,10 @@ namespace flecs_hub
 
             public IntPtr Pointer;
 
-            public FnPtr_EcsOsCondT_EcsOsMutexT_Void(@delegate d)
-            {
-                Pointer = Marshal.GetFunctionPointerForDelegate(d);
-            }
+            // public FnPtr_EcsOsCondT_EcsOsMutexT_Void(@delegate d)
+            // {
+            //     Pointer = Marshal.GetFunctionPointerForDelegate(d);
+            // }
         }
 
         [CNode(Kind = "FunctionPointer")]
@@ -2737,10 +2737,10 @@ namespace flecs_hub
 
             public IntPtr Pointer;
 
-            public FnPtr_EcsOsCondT_Void(@delegate d)
-            {
-                Pointer = Marshal.GetFunctionPointerForDelegate(d);
-            }
+            // public FnPtr_EcsOsCondT_Void(@delegate d)
+            // {
+            //     Pointer = Marshal.GetFunctionPointerForDelegate(d);
+            // }
         }
 
         [CNode(Kind = "FunctionPointer")]
@@ -2752,10 +2752,10 @@ namespace flecs_hub
 
             public IntPtr Pointer;
 
-            public FnPtr_EcsOsDlT_CString_EcsOsProcT(@delegate d)
-            {
-                Pointer = Marshal.GetFunctionPointerForDelegate(d);
-            }
+            // public FnPtr_EcsOsDlT_CString_EcsOsProcT(@delegate d)
+            // {
+            //     Pointer = Marshal.GetFunctionPointerForDelegate(d);
+            // }
         }
 
         [CNode(Kind = "FunctionPointer")]
@@ -2767,10 +2767,10 @@ namespace flecs_hub
 
             public IntPtr Pointer;
 
-            public FnPtr_EcsOsDlT_Void(@delegate d)
-            {
-                Pointer = Marshal.GetFunctionPointerForDelegate(d);
-            }
+            // public FnPtr_EcsOsDlT_Void(@delegate d)
+            // {
+            //     Pointer = Marshal.GetFunctionPointerForDelegate(d);
+            // }
         }
 
         [CNode(Kind = "FunctionPointer")]
@@ -2782,10 +2782,10 @@ namespace flecs_hub
 
             public IntPtr Pointer;
 
-            public FnPtr_EcsOsMutexT(@delegate d)
-            {
-                Pointer = Marshal.GetFunctionPointerForDelegate(d);
-            }
+            // public FnPtr_EcsOsMutexT(@delegate d)
+            // {
+            //     Pointer = Marshal.GetFunctionPointerForDelegate(d);
+            // }
         }
 
         [CNode(Kind = "FunctionPointer")]
@@ -2797,10 +2797,10 @@ namespace flecs_hub
 
             public IntPtr Pointer;
 
-            public FnPtr_EcsOsMutexT_Void(@delegate d)
-            {
-                Pointer = Marshal.GetFunctionPointerForDelegate(d);
-            }
+            // public FnPtr_EcsOsMutexT_Void(@delegate d)
+            // {
+            //     Pointer = Marshal.GetFunctionPointerForDelegate(d);
+            // }
         }
 
         [CNode(Kind = "FunctionPointer")]
@@ -2812,10 +2812,10 @@ namespace flecs_hub
 
             public IntPtr Pointer;
 
-            public FnPtr_EcsOsThreadCallbackT_VoidPtr_EcsOsThreadT(@delegate d)
-            {
-                Pointer = Marshal.GetFunctionPointerForDelegate(d);
-            }
+            // public FnPtr_EcsOsThreadCallbackT_VoidPtr_EcsOsThreadT(@delegate d)
+            // {
+            //     Pointer = Marshal.GetFunctionPointerForDelegate(d);
+            // }
         }
 
         [CNode(Kind = "FunctionPointer")]
@@ -2827,10 +2827,10 @@ namespace flecs_hub
 
             public IntPtr Pointer;
 
-            public FnPtr_EcsOsThreadIdT(@delegate d)
-            {
-                Pointer = Marshal.GetFunctionPointerForDelegate(d);
-            }
+            // public FnPtr_EcsOsThreadIdT(@delegate d)
+            // {
+            //     Pointer = Marshal.GetFunctionPointerForDelegate(d);
+            // }
         }
 
         [CNode(Kind = "FunctionPointer")]
@@ -2842,10 +2842,10 @@ namespace flecs_hub
 
             public IntPtr Pointer;
 
-            public FnPtr_EcsOsThreadT_VoidPtr(@delegate d)
-            {
-                Pointer = Marshal.GetFunctionPointerForDelegate(d);
-            }
+            // public FnPtr_EcsOsThreadT_VoidPtr(@delegate d)
+            // {
+            //     Pointer = Marshal.GetFunctionPointerForDelegate(d);
+            // }
         }
 
         [CNode(Kind = "FunctionPointer")]
@@ -2857,10 +2857,10 @@ namespace flecs_hub
 
             public IntPtr Pointer;
 
-            public FnPtr_EcsPolyTPtr_Void(@delegate d)
-            {
-                Pointer = Marshal.GetFunctionPointerForDelegate(d);
-            }
+            // public FnPtr_EcsPolyTPtr_Void(@delegate d)
+            // {
+            //     Pointer = Marshal.GetFunctionPointerForDelegate(d);
+            // }
         }
 
         [CNode(Kind = "FunctionPointer")]
@@ -2872,10 +2872,10 @@ namespace flecs_hub
 
             public IntPtr Pointer;
 
-            public FnPtr_EcsSerializerTPtr_CString_Int(@delegate d)
-            {
-                Pointer = Marshal.GetFunctionPointerForDelegate(d);
-            }
+            // public FnPtr_EcsSerializerTPtr_CString_Int(@delegate d)
+            // {
+            //     Pointer = Marshal.GetFunctionPointerForDelegate(d);
+            // }
         }
 
         [CNode(Kind = "FunctionPointer")]
@@ -2887,10 +2887,10 @@ namespace flecs_hub
 
             public IntPtr Pointer;
 
-            public FnPtr_EcsSerializerTPtr_EcsEntityT_VoidPtr_Int(@delegate d)
-            {
-                Pointer = Marshal.GetFunctionPointerForDelegate(d);
-            }
+            // public FnPtr_EcsSerializerTPtr_EcsEntityT_VoidPtr_Int(@delegate d)
+            // {
+            //     Pointer = Marshal.GetFunctionPointerForDelegate(d);
+            // }
         }
 
         [CNode(Kind = "FunctionPointer")]
@@ -2902,10 +2902,10 @@ namespace flecs_hub
 
             public IntPtr Pointer;
 
-            public FnPtr_EcsSerializerTPtr_VoidPtr_Int(@delegate d)
-            {
-                Pointer = Marshal.GetFunctionPointerForDelegate(d);
-            }
+            // public FnPtr_EcsSerializerTPtr_VoidPtr_Int(@delegate d)
+            // {
+            //     Pointer = Marshal.GetFunctionPointerForDelegate(d);
+            // }
         }
 
         [CNode(Kind = "FunctionPointer")]
@@ -2917,10 +2917,10 @@ namespace flecs_hub
 
             public IntPtr Pointer;
 
-            public FnPtr_EcsSizeT_VoidPtr(@delegate d)
-            {
-                Pointer = Marshal.GetFunctionPointerForDelegate(d);
-            }
+            // public FnPtr_EcsSizeT_VoidPtr(@delegate d)
+            // {
+            //     Pointer = Marshal.GetFunctionPointerForDelegate(d);
+            // }
         }
 
         [CNode(Kind = "FunctionPointer")]
@@ -2932,10 +2932,10 @@ namespace flecs_hub
 
             public IntPtr Pointer;
 
-            public FnPtr_EcsTimeTPtr_Void(@delegate d)
-            {
-                Pointer = Marshal.GetFunctionPointerForDelegate(d);
-            }
+            // public FnPtr_EcsTimeTPtr_Void(@delegate d)
+            // {
+            //     Pointer = Marshal.GetFunctionPointerForDelegate(d);
+            // }
         }
 
         [CNode(Kind = "FunctionPointer")]
@@ -2947,10 +2947,10 @@ namespace flecs_hub
 
             public IntPtr Pointer;
 
-            public FnPtr_EcsWorldTPtr_CString_VoidPtr_EcsEntityT(@delegate d)
-            {
-                Pointer = Marshal.GetFunctionPointerForDelegate(d);
-            }
+            // public FnPtr_EcsWorldTPtr_CString_VoidPtr_EcsEntityT(@delegate d)
+            // {
+            //     Pointer = Marshal.GetFunctionPointerForDelegate(d);
+            // }
         }
 
         [CNode(Kind = "FunctionPointer")]
@@ -2962,10 +2962,10 @@ namespace flecs_hub
 
             public IntPtr Pointer;
 
-            public FnPtr_EcsWorldTPtr_EcsAppDescTPtr_Int(@delegate d)
-            {
-                Pointer = Marshal.GetFunctionPointerForDelegate(d);
-            }
+            // public FnPtr_EcsWorldTPtr_EcsAppDescTPtr_Int(@delegate d)
+            // {
+            //     Pointer = Marshal.GetFunctionPointerForDelegate(d);
+            // }
         }
 
         [CNode(Kind = "FunctionPointer")]
@@ -2977,10 +2977,10 @@ namespace flecs_hub
 
             public IntPtr Pointer;
 
-            public FnPtr_EcsWorldTPtr_EcsPolyTPtr_EcsIterTPtr_EcsTermTPtr_Void(@delegate d)
-            {
-                Pointer = Marshal.GetFunctionPointerForDelegate(d);
-            }
+            // public FnPtr_EcsWorldTPtr_EcsPolyTPtr_EcsIterTPtr_EcsTermTPtr_Void(@delegate d)
+            // {
+            //     Pointer = Marshal.GetFunctionPointerForDelegate(d);
+            // }
         }
 
         [CNode(Kind = "FunctionPointer")]
@@ -2992,10 +2992,10 @@ namespace flecs_hub
 
             public IntPtr Pointer;
 
-            public FnPtr_EcsWorldTPtr_EcsTableTPtr_EcsEntityTPtr_VoidPtr_Int_Int_Int_EcsOrderByActionT_Void(@delegate d)
-            {
-                Pointer = Marshal.GetFunctionPointerForDelegate(d);
-            }
+            // public FnPtr_EcsWorldTPtr_EcsTableTPtr_EcsEntityTPtr_VoidPtr_Int_Int_Int_EcsOrderByActionT_Void(@delegate d)
+            // {
+            //     Pointer = Marshal.GetFunctionPointerForDelegate(d);
+            // }
         }
 
         [CNode(Kind = "FunctionPointer")]
@@ -3007,10 +3007,10 @@ namespace flecs_hub
 
             public IntPtr Pointer;
 
-            public FnPtr_EcsWorldTPtr_EcsTableTPtr_EcsIdT_VoidPtr_Ulong(@delegate d)
-            {
-                Pointer = Marshal.GetFunctionPointerForDelegate(d);
-            }
+            // public FnPtr_EcsWorldTPtr_EcsTableTPtr_EcsIdT_VoidPtr_Ulong(@delegate d)
+            // {
+            //     Pointer = Marshal.GetFunctionPointerForDelegate(d);
+            // }
         }
 
         [CNode(Kind = "FunctionPointer")]
@@ -3022,10 +3022,10 @@ namespace flecs_hub
 
             public IntPtr Pointer;
 
-            public FnPtr_EcsWorldTPtr_Int(@delegate d)
-            {
-                Pointer = Marshal.GetFunctionPointerForDelegate(d);
-            }
+            // public FnPtr_EcsWorldTPtr_Int(@delegate d)
+            // {
+            //     Pointer = Marshal.GetFunctionPointerForDelegate(d);
+            // }
         }
 
         [CNode(Kind = "FunctionPointer")]
@@ -3037,10 +3037,10 @@ namespace flecs_hub
 
             public IntPtr Pointer;
 
-            public FnPtr_EcsWorldTPtr_Ulong_VoidPtr_VoidPtr(@delegate d)
-            {
-                Pointer = Marshal.GetFunctionPointerForDelegate(d);
-            }
+            // public FnPtr_EcsWorldTPtr_Ulong_VoidPtr_VoidPtr(@delegate d)
+            // {
+            //     Pointer = Marshal.GetFunctionPointerForDelegate(d);
+            // }
         }
 
         [CNode(Kind = "FunctionPointer")]
@@ -3052,10 +3052,10 @@ namespace flecs_hub
 
             public IntPtr Pointer;
 
-            public FnPtr_EcsWorldTPtr_Ulong_VoidPtr_VoidPtr_Void(@delegate d)
-            {
-                Pointer = Marshal.GetFunctionPointerForDelegate(d);
-            }
+            // public FnPtr_EcsWorldTPtr_Ulong_VoidPtr_VoidPtr_Void(@delegate d)
+            // {
+            //     Pointer = Marshal.GetFunctionPointerForDelegate(d);
+            // }
         }
 
         [CNode(Kind = "FunctionPointer")]
@@ -3067,10 +3067,10 @@ namespace flecs_hub
 
             public IntPtr Pointer;
 
-            public FnPtr_EcsWorldTPtr_Void(@delegate d)
-            {
-                Pointer = Marshal.GetFunctionPointerForDelegate(d);
-            }
+            // public FnPtr_EcsWorldTPtr_Void(@delegate d)
+            // {
+            //     Pointer = Marshal.GetFunctionPointerForDelegate(d);
+            // }
         }
 
         [CNode(Kind = "FunctionPointer")]
@@ -3082,10 +3082,10 @@ namespace flecs_hub
 
             public IntPtr Pointer;
 
-            public FnPtr_EcsWorldTPtr_VoidPtr_Void(@delegate d)
-            {
-                Pointer = Marshal.GetFunctionPointerForDelegate(d);
-            }
+            // public FnPtr_EcsWorldTPtr_VoidPtr_Void(@delegate d)
+            // {
+            //     Pointer = Marshal.GetFunctionPointerForDelegate(d);
+            // }
         }
 
         [CNode(Kind = "FunctionPointer")]
@@ -3097,10 +3097,10 @@ namespace flecs_hub
 
             public IntPtr Pointer;
 
-            public FnPtr_IntPtr_Int(@delegate d)
-            {
-                Pointer = Marshal.GetFunctionPointerForDelegate(d);
-            }
+            // public FnPtr_IntPtr_Int(@delegate d)
+            // {
+            //     Pointer = Marshal.GetFunctionPointerForDelegate(d);
+            // }
         }
 
         [CNode(Kind = "FunctionPointer")]
@@ -3112,10 +3112,10 @@ namespace flecs_hub
 
             public IntPtr Pointer;
 
-            public FnPtr_Int_CString_Int_CString_Void(@delegate d)
-            {
-                Pointer = Marshal.GetFunctionPointerForDelegate(d);
-            }
+            // public FnPtr_Int_CString_Int_CString_Void(@delegate d)
+            // {
+            //     Pointer = Marshal.GetFunctionPointerForDelegate(d);
+            // }
         }
 
         [CNode(Kind = "FunctionPointer")]
@@ -3127,10 +3127,10 @@ namespace flecs_hub
 
             public IntPtr Pointer;
 
-            public FnPtr_Int_Int_Void(@delegate d)
-            {
-                Pointer = Marshal.GetFunctionPointerForDelegate(d);
-            }
+            // public FnPtr_Int_Int_Void(@delegate d)
+            // {
+            //     Pointer = Marshal.GetFunctionPointerForDelegate(d);
+            // }
         }
 
         [CNode(Kind = "FunctionPointer")]
@@ -3142,10 +3142,10 @@ namespace flecs_hub
 
             public IntPtr Pointer;
 
-            public FnPtr_LongPtr_Long(@delegate d)
-            {
-                Pointer = Marshal.GetFunctionPointerForDelegate(d);
-            }
+            // public FnPtr_LongPtr_Long(@delegate d)
+            // {
+            //     Pointer = Marshal.GetFunctionPointerForDelegate(d);
+            // }
         }
 
         [CNode(Kind = "FunctionPointer")]
@@ -3157,10 +3157,10 @@ namespace flecs_hub
 
             public IntPtr Pointer;
 
-            public FnPtr_Ulong(@delegate d)
-            {
-                Pointer = Marshal.GetFunctionPointerForDelegate(d);
-            }
+            // public FnPtr_Ulong(@delegate d)
+            // {
+            //     Pointer = Marshal.GetFunctionPointerForDelegate(d);
+            // }
         }
 
         [CNode(Kind = "FunctionPointer")]
@@ -3172,10 +3172,10 @@ namespace flecs_hub
 
             public IntPtr Pointer;
 
-            public FnPtr_Void(@delegate d)
-            {
-                Pointer = Marshal.GetFunctionPointerForDelegate(d);
-            }
+            // public FnPtr_Void(@delegate d)
+            // {
+            //     Pointer = Marshal.GetFunctionPointerForDelegate(d);
+            // }
         }
 
         [CNode(Kind = "FunctionPointer")]
@@ -3187,10 +3187,10 @@ namespace flecs_hub
 
             public IntPtr Pointer;
 
-            public FnPtr_VoidPtr_CBool_Void(@delegate d)
-            {
-                Pointer = Marshal.GetFunctionPointerForDelegate(d);
-            }
+            // public FnPtr_VoidPtr_CBool_Void(@delegate d)
+            // {
+            //     Pointer = Marshal.GetFunctionPointerForDelegate(d);
+            // }
         }
 
         [CNode(Kind = "FunctionPointer")]
@@ -3202,10 +3202,10 @@ namespace flecs_hub
 
             public IntPtr Pointer;
 
-            public FnPtr_VoidPtr_CChar_Void(@delegate d)
-            {
-                Pointer = Marshal.GetFunctionPointerForDelegate(d);
-            }
+            // public FnPtr_VoidPtr_CChar_Void(@delegate d)
+            // {
+            //     Pointer = Marshal.GetFunctionPointerForDelegate(d);
+            // }
         }
 
         [CNode(Kind = "FunctionPointer")]
@@ -3217,10 +3217,10 @@ namespace flecs_hub
 
             public IntPtr Pointer;
 
-            public FnPtr_VoidPtr_CString_Void(@delegate d)
-            {
-                Pointer = Marshal.GetFunctionPointerForDelegate(d);
-            }
+            // public FnPtr_VoidPtr_CString_Void(@delegate d)
+            // {
+            //     Pointer = Marshal.GetFunctionPointerForDelegate(d);
+            // }
         }
 
         [CNode(Kind = "FunctionPointer")]
@@ -3232,10 +3232,10 @@ namespace flecs_hub
 
             public IntPtr Pointer;
 
-            public FnPtr_VoidPtr_CString_VoidPtr(@delegate d)
-            {
-                Pointer = Marshal.GetFunctionPointerForDelegate(d);
-            }
+            // public FnPtr_VoidPtr_CString_VoidPtr(@delegate d)
+            // {
+            //     Pointer = Marshal.GetFunctionPointerForDelegate(d);
+            // }
         }
 
         [CNode(Kind = "FunctionPointer")]
@@ -3247,10 +3247,10 @@ namespace flecs_hub
 
             public IntPtr Pointer;
 
-            public FnPtr_VoidPtr_Double_Void(@delegate d)
-            {
-                Pointer = Marshal.GetFunctionPointerForDelegate(d);
-            }
+            // public FnPtr_VoidPtr_Double_Void(@delegate d)
+            // {
+            //     Pointer = Marshal.GetFunctionPointerForDelegate(d);
+            // }
         }
 
         [CNode(Kind = "FunctionPointer")]
@@ -3262,10 +3262,10 @@ namespace flecs_hub
 
             public IntPtr Pointer;
 
-            public FnPtr_VoidPtr_EcsSizeT_VoidPtr(@delegate d)
-            {
-                Pointer = Marshal.GetFunctionPointerForDelegate(d);
-            }
+            // public FnPtr_VoidPtr_EcsSizeT_VoidPtr(@delegate d)
+            // {
+            //     Pointer = Marshal.GetFunctionPointerForDelegate(d);
+            // }
         }
 
         [CNode(Kind = "FunctionPointer")]
@@ -3277,10 +3277,10 @@ namespace flecs_hub
 
             public IntPtr Pointer;
 
-            public FnPtr_VoidPtr_EcsWorldTPtr_EcsEntityT_Void(@delegate d)
-            {
-                Pointer = Marshal.GetFunctionPointerForDelegate(d);
-            }
+            // public FnPtr_VoidPtr_EcsWorldTPtr_EcsEntityT_Void(@delegate d)
+            // {
+            //     Pointer = Marshal.GetFunctionPointerForDelegate(d);
+            // }
         }
 
         [CNode(Kind = "FunctionPointer")]
@@ -3292,10 +3292,10 @@ namespace flecs_hub
 
             public IntPtr Pointer;
 
-            public FnPtr_VoidPtr_Int_EcsTypeInfoTPtr_Void(@delegate d)
-            {
-                Pointer = Marshal.GetFunctionPointerForDelegate(d);
-            }
+            // public FnPtr_VoidPtr_Int_EcsTypeInfoTPtr_Void(@delegate d)
+            // {
+            //     Pointer = Marshal.GetFunctionPointerForDelegate(d);
+            // }
         }
 
         [CNode(Kind = "FunctionPointer")]
@@ -3307,10 +3307,10 @@ namespace flecs_hub
 
             public IntPtr Pointer;
 
-            public FnPtr_VoidPtr_Long_Void(@delegate d)
-            {
-                Pointer = Marshal.GetFunctionPointerForDelegate(d);
-            }
+            // public FnPtr_VoidPtr_Long_Void(@delegate d)
+            // {
+            //     Pointer = Marshal.GetFunctionPointerForDelegate(d);
+            // }
         }
 
         [CNode(Kind = "FunctionPointer")]
@@ -3322,10 +3322,10 @@ namespace flecs_hub
 
             public IntPtr Pointer;
 
-            public FnPtr_VoidPtr_Ulong(@delegate d)
-            {
-                Pointer = Marshal.GetFunctionPointerForDelegate(d);
-            }
+            // public FnPtr_VoidPtr_Ulong(@delegate d)
+            // {
+            //     Pointer = Marshal.GetFunctionPointerForDelegate(d);
+            // }
         }
 
         [CNode(Kind = "FunctionPointer")]
@@ -3337,10 +3337,10 @@ namespace flecs_hub
 
             public IntPtr Pointer;
 
-            public FnPtr_VoidPtr_Ulong_Void(@delegate d)
-            {
-                Pointer = Marshal.GetFunctionPointerForDelegate(d);
-            }
+            // public FnPtr_VoidPtr_Ulong_Void(@delegate d)
+            // {
+            //     Pointer = Marshal.GetFunctionPointerForDelegate(d);
+            // }
         }
 
         [CNode(Kind = "FunctionPointer")]
@@ -3352,10 +3352,10 @@ namespace flecs_hub
 
             public IntPtr Pointer;
 
-            public FnPtr_VoidPtr_Ulong_VoidPtr(@delegate d)
-            {
-                Pointer = Marshal.GetFunctionPointerForDelegate(d);
-            }
+            // public FnPtr_VoidPtr_Ulong_VoidPtr(@delegate d)
+            // {
+            //     Pointer = Marshal.GetFunctionPointerForDelegate(d);
+            // }
         }
 
         [CNode(Kind = "FunctionPointer")]
@@ -3367,10 +3367,10 @@ namespace flecs_hub
 
             public IntPtr Pointer;
 
-            public FnPtr_VoidPtr_Void(@delegate d)
-            {
-                Pointer = Marshal.GetFunctionPointerForDelegate(d);
-            }
+            // public FnPtr_VoidPtr_Void(@delegate d)
+            // {
+            //     Pointer = Marshal.GetFunctionPointerForDelegate(d);
+            // }
         }
 
         [CNode(Kind = "FunctionPointer")]
@@ -3382,10 +3382,10 @@ namespace flecs_hub
 
             public IntPtr Pointer;
 
-            public FnPtr_VoidPtr_VoidPtr(@delegate d)
-            {
-                Pointer = Marshal.GetFunctionPointerForDelegate(d);
-            }
+            // public FnPtr_VoidPtr_VoidPtr(@delegate d)
+            // {
+            //     Pointer = Marshal.GetFunctionPointerForDelegate(d);
+            // }
         }
 
         [CNode(Kind = "FunctionPointer")]
@@ -3397,10 +3397,10 @@ namespace flecs_hub
 
             public IntPtr Pointer;
 
-            public FnPtr_VoidPtr_VoidPtr_Int(@delegate d)
-            {
-                Pointer = Marshal.GetFunctionPointerForDelegate(d);
-            }
+            // public FnPtr_VoidPtr_VoidPtr_Int(@delegate d)
+            // {
+            //     Pointer = Marshal.GetFunctionPointerForDelegate(d);
+            // }
         }
 
         [CNode(Kind = "FunctionPointer")]
@@ -3412,10 +3412,10 @@ namespace flecs_hub
 
             public IntPtr Pointer;
 
-            public FnPtr_VoidPtr_VoidPtr_Int_EcsTypeInfoTPtr_Void(@delegate d)
-            {
-                Pointer = Marshal.GetFunctionPointerForDelegate(d);
-            }
+            // public FnPtr_VoidPtr_VoidPtr_Int_EcsTypeInfoTPtr_Void(@delegate d)
+            // {
+            //     Pointer = Marshal.GetFunctionPointerForDelegate(d);
+            // }
         }
 
         [CNode(Kind = "Struct")]
