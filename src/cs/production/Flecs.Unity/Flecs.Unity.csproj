@@ -9,6 +9,7 @@
 		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
 		<GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
 		<NoWarn>$(NoWarn);CA1016</NoWarn>
+		<CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
 	</PropertyGroup>
 
 	<PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
@@ -32,5 +33,16 @@
 		</Compile>
 		<Compile Remove="$(MSBuildThisFileDirectory)../Flecs.Core/Generated/**/*.cs" />
 	</ItemGroup>
+
+	<Target Name="PostBuild" AfterTargets="Build" Condition="'$(Configuration)' == 'Release'">
+		<Message Text="Copying $(TargetFileName) -&gt; $(AssemblyDestPath)" Importance="high" />
+		<Copy SourceFiles="$(OutputPath)$(TargetFileName)" DestinationFolder="$(AssemblyDestPath)" />
+
+		<Message Text="Copying C2CS.Runtime.dll -&gt; $(AssemblyDestPath)" Importance="high" />
+		<Copy SourceFiles="$(OutputPath)C2CS.Runtime.dll" DestinationFolder="$(AssemblyDestPath)" />
+
+		<Message Text="Copying System.Runtime.CompilerServices.Unsafe.dll -&gt; $(AssemblyDestPath)" Importance="high" />
+		<Copy SourceFiles="$(OutputPath)System.Runtime.CompilerServices.Unsafe.dll" DestinationFolder="$(AssemblyDestPath)" />
+	</Target>
 
 </Project>
