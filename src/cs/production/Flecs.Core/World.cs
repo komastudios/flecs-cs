@@ -197,7 +197,8 @@ public unsafe class World
         return type.FullName!.Replace("+", ".");
 #pragma warning restore CA1307
 #else
-        return type.FullName!.Replace("+", ".", StringComparison.InvariantCulture);
+        return type.FullName!.Replace("+", ".");
+        // return type.FullName!.Replace("+", ".", StringComparison.InvariantCulture);
 #endif
     }
 
